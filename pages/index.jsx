@@ -4,8 +4,10 @@ export default function Home () {
     
     return (
         <>
-            <Header/>
-            <h1>Hello!!</h1>
+            <div className="container">
+                <h1>Hello!!</h1>
+            </div>
+            
         </>
     )
     
