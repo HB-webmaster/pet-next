@@ -1,14 +1,7 @@
-import Header from "../components/Header/Header";
+import Home from "./Home/Home";
 
-export default function Home () {
+export default function RootPage() {
     
-    return (
-        <>
-            <div className="container">
-                <h1>Hello!!</h1>
-            </div>
-            
-        </>
-    )
+    return <Home/>
     
 }
